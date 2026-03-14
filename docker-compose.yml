@@ -15,6 +15,7 @@ services:
     environment:
       - FASTAPI_ENV=production
       - MLFLOW_TRACKING_URI=file:/app/mlruns
+      - PORT=8000
     volumes:
       - ./mlruns:/app/mlruns
       - ./models:/app/models

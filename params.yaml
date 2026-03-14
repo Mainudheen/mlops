@@ -1,0 +1,21 @@
+# Model Hyperparameters
+model:
+  type: "logistic_regression"
+  random_state: 42
+  max_iter: 1000
+  
+# Data Configuration
+data:
+  test_size: 0.2
+  random_state: 42
+  
+# Training Configuration
+training:
+  batch_size: 32
+  epochs: 100
+
+# MLflow Configuration
+mlflow:
+  experiment_name: "student_placement_prediction"
+  model_name: "placement_classifier"
+  tracking_uri: "mlruns"

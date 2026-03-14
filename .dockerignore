@@ -1,0 +1,63 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+Dockerfile.streamlit
+docker-compose.yml
+.dockerignore
+
+# Documentation
+*.md
+README.md
+QUICKSTART.md
+ARCHITECTURE.md
+CHECKLIST.md
+PROJECT_SUMMARY.md
+DOCKER_SETUP_GUIDE.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+venv/
+env/
+ENV/
+
+# ML & Data Science (will be mounted as volumes)
+mlruns/
+models/*.pkl
+data/processed/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test coverage
+htmlcov/
+.coverage
